@@ -1,0 +1,25 @@
+/*Cajas flotantes
+VaQola.2020*/
+
+div{
+    padding: 20px;
+    border: solid black 3px;
+    width: 50%;
+    float: left;
+}
+.roja{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.amarilla{
+    background-color:yellow;
+    clear: both;
+    width: 100%;
+}
+.blanca{
+    background-color: white;
+    clear: both;
+    width: 100%;
+}

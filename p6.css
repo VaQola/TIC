@@ -1,0 +1,40 @@
+    /*Momento XD*/
+h1{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    border: solid 5px black;
+	border-radius: 25px;
+
+}
+html{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+.contenedor{
+    background-color: azure;
+    border: 3px dotted black;
+    padding: 5px;
+    margin: 10px;
+    width: 55%;
+    margin: auto;
+}
+ol{
+    list-style: upper-roman;
+}
+ul{
+    list-style: square;
+}
+/*
+    firma
+*/
+footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    text-align:left:;
+}
