@@ -1,0 +1,43 @@
+/*Galeria de img CSS 
+por VaQoola 
+Noviembre 2020
+*/
+main{
+    text-align: center;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    align-content: center;
+}
+
+main>img{
+    width: 65%;
+    margin: auto;
+}
+header{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/*
+    XD
+*/
+footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background: transparent;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: rotate(500000deg) scale(0.4);
+    border: 5px solid black;
