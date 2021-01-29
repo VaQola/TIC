@@ -1,0 +1,58 @@
+/*Pagina de reviews de videojuegos
+VaQola et Jesdr223 // 2021 //
+*/
+div{
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.formulario{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Press Start 2P';
+    width: 50%;
+    margin: auto;
+}
+
+.fm{
+       
+    display:flex;
+    flex-direction: column;
+    
+}
+.fm > *{
+    margin: 10px 0px 0px 0px;    
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+footer{
+    position: inherit;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.redes{
+    margin-bottom: 20px;
+}
+
+.redes>img{
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+}
